@@ -1,0 +1,39 @@
+{
+  "name": "simple-data-pipe-connector-oauth-trello",
+  "version": "0.0.1",
+  "description": "Simple Data Pipe connector OAuth1.0 boilerplate for Trello.",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-trello.git"
+  },
+  "simple_data_pipe": {
+    "name": "trello_oauth1_0_boilerplate",
+    "service_dependencies": []
+  },
+  "keywords": [
+    "simple data pipe",
+    "yahoo",
+    "connector",
+    "Cloudant",
+    "data movement"
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluemix-helper-config": "^0.1.13",
+    "lodash": "^4.6.1",
+    "oauth": "^0.9.14",
+    "passport-trello": "^0.1.5",
+    "request": "^2.69.0",
+    "simple-data-pipe-sdk": "^0.2.2",
+    "util": "^0.10.3"
+  },
+  "author": {
+    "name": "ptitzler@us.ibm.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-trello/issues"
+  },
+  "readmeFilename": "README.md"
+}

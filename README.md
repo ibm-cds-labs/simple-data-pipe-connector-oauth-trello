@@ -24,8 +24,9 @@ This connector does not require any additional Bluemix service.
 
   When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the `package.json` file: 
 
+> BETA ONLY
   ```
-  "simple-data-pipe-connector-oauth-trello": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-trello.git"
+  "simple-data-pipe-connector-oauth-trello": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-trello.git#pp_validation"
   ```
 
 ##### Enable OAuth support and collect connectivity information

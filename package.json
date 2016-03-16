@@ -25,7 +25,7 @@
     "oauth": "^0.9.14",
     "passport-trello": "^0.1.5",
     "request": "^2.69.0",
-    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp-validation",
+    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation",
     "util": "^0.10.3"
   },
   "author": {

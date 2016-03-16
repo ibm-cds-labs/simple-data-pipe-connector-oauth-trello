@@ -30,9 +30,9 @@ This connector does not require any additional Bluemix service.
 
 ##### Enable OAuth support and collect connectivity information
 
- You need to register the Simple Data Pipe application before you can use it to load data.
+ You need to request a Developer API key and secret before you can use the Simple Data Pipe application to load data.
  1. Open the [Trello](http://www.trello.com) web page and log in.
- 2. ...
+ 2. Navigate to the [Trello API key generation web page](https://trello.com/1/appKey/generate) and note the key (top of the page) and secret (bottom of the page).
 
 ### Using the Simple Data Pipe OAuth sample connector 
 
@@ -41,7 +41,7 @@ To configure and run a pipe
 1. Open the Simple Data Pipe web console.
 2. Select __Create A New Pipe__.
 3. Select __Trello OAuth1.0 O Data Source__ for the __Type__ when creating a new pipe  
-4. In the _Connect_ page, enter the _application id_ and _secret_ from the Trello app preferences page. 
+4. In the _Connect_ page, enter the _API key_ and _secret_ from the [Trello API web page](https://trello.com/app-key). 
 5. Select the data set (or data sets) to be loaded.
 6. Schedule or run the data pipe now.
 

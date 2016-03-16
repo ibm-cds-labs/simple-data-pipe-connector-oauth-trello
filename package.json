@@ -19,6 +19,7 @@
     "data movement"
   ],
   "dependencies": {
+    "async": "^1.5.2",
     "bluemix-helper-config": "^0.1.13",
     "lodash": "^4.6.1",
     "oauth": "^0.9.14",

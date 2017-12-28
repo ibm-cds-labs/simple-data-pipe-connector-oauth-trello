@@ -1,9 +1,6 @@
-> Hey there! So you want to build your own Simple Data Pipe connector? [Start here](https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-template/wiki/How-to-Build-a-Simple-Data-Pipe-Connector).
-
-***
-
-
 # Simple Data Pipe connector boilerplate for Trello
+
+:no_entry_sign: This project is no longer maintained.
 
 This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector boilerplate for <a href="http://trello.com"></a> has been preconfigured for Trello API access.You can build your own special purpose connector by implementing the `getTrelloDataSetList` and `fetchRecords` methods in `lib/index.js` to fetch the desired data from Trello and optionally enrich it.
 
